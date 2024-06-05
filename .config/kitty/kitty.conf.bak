@@ -1,0 +1,47 @@
+font_family	Maple Mono SC NF Light
+font_size	10.0
+
+# Use different font(s) for Japanese text
+# Hiragana
+symbol_map U+3041-U+3096 				HackGen Console
+# Katakana (Full Width)
+symbol_map U+30A0-U+30FF 				HackGen Console
+# Kanji
+symbol_map U+3400-U+4DB5,U+4E00-U+9FCB,U+F900-U+FA6A 	HackGen Console
+# Kanji Radicals
+symbol_map U+2E80-U+2FD5 				HackGen Console
+# Katakana and Punctuation (Half Width)
+symbol_map U+FF5F-U+FF9F 				HackGen Console
+# Japanese Symbols and Punctuation
+symbol_map U+3000-U+303F 				HackGen Console
+# Miscellaneous Japanese Symbols and Characters
+symbol_map U+31F0-U+31FF,U+3220-U+3243,U+3280-U+337F 	HackGen Console
+# Alphanumeric and Punctuation (Full Width)
+symbol_map U+FF01-U+FF5E 				HackGen Console
+
+url_style	dotted
+copy_on_select	yes
+
+window_padding_width	8
+active_border_color	none
+tab_bar_style		powerline
+tab_powerline_style	angled
+#tab_bar_style		custom
+tab_bar_min_tabs	1
+
+cursor 			#1dd2fe
+cursor_text_color	#444
+
+active_tab_foreground	#333
+active_tab_background	#1dd2fe
+active_tab_font_style	bold-italic
+inactive_tab_foreground #eee
+inactive_tab_background	#222
+inactive_tab_font_style	normal
+
+tab_bar_margin_width	0.0
+#tab_bar_margin_height	16.0 0.0
+#tab_bar_margin_color	#222
+background_opacity	0.7
+
+update_check_interval 0
