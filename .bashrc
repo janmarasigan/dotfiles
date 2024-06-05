@@ -20,7 +20,13 @@ source /usr/share/nvm/init-nvm.sh
 
 export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
 
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /usr/share/powerline/bindings/bash/powerline.sh
+
 # mount backup ssd similar to how thunar does it automatically
 #gio mount --device=/dev/sda2 /run/media/jan/Backup
 
 alias livetl='~/Programs/stream-translator/venv/bin/python ~/Programs/stream-translator/translator.py --model medium --language Japanese --task translate'
+
